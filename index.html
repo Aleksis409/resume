@@ -6,34 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="alexey, cv, resume">
     <meta name="description" content="Это сайт - резюме Алексея Артемова">
+    <link rel="stylesheet" href="styles.css">
     <title>Alexey Resume</title>
 </head>
+
 <body>
-    <img src="Alex.jpg" width="150">
+    <div class="info">
 
-    <h1>Алексей Артёмов</h1>
-    
-    <p>
-        Я инженер электронщик, много занимался установкой, настройкой и ремонтом различного 
-        <strong> IT оборудования</strong>. Сейчас хочу освоить новые <strong>IT навыки</strong>, 
-        научиться программировать.
-    </p>
+        <img src="Alex.jpg" width="150">
 
-    <p>
-        <strong><em>Я люблю читать книги, ходить по лесу, путешествовать.</em></strong> 
-    </p>
+        <div class="info-text">
+
+            <header id="header" class="header"> 
+                <h1>Алексей Артёмов</h1>
+            </header>
+
+                <p>
+                    Я инженер электронщик, много занимался установкой, настройкой и ремонтом различного 
+                    <strong> IT оборудования</strong>. Сейчас хочу освоить новые <strong>IT навыки</strong>, 
+                    научиться программировать.
+                </p>
+
+                <p>
+                    <strong><em>Я люблю читать книги, ходить по лесу, путешествовать.</em></strong> 
+                </p>
+            </div>                                                                
+        </div>
+
+                <br>
+
+                <h2>Мои хобби</h2> 
+
+                <ol>
+                    <li>Фотография</li>
+                    <li>Чтение</li>
+                    <li>Ремонт электроники</li>
+                </ol>   
+
+
     <br>
 
-    <h2>Мои хобби</h2>
-
-    <ol>
-        <li>Фотография</li>
-        <li>Чтение</li>
-        <li>Ремонт электроники</li>
-    </ol>
-    
     <h2>Опыт работы</h2>
-    <table>
+    <table width="30%" >
         <thead>
             <tr>
                 <th>Название</th>
@@ -42,23 +56,23 @@
             </tr>
         </thead>
 
-        <tbody>
-            <tr>
+        <tbody>            
+            <tr align=left>
                 <th>ПАО Сбербанк</th>
                 <th>инженер</th>
                 <th>2003 - 2011</th>
             </tr>
 
-            <tr>
+            <tr align=left>
                 <th>ПАО Сбербанк</th>
                 <th>старший специалист</th>
                 <th>2011 - 2017</th>
             </tr>
 
-            <tr>
+            <tr align=left>
                 <th>ООО СбербанкСервис</th>
                 <th>старший инженер</th>
-                <th>2017</th>
+                <th>2017 - сейчас</th>
             </tr>
 
         </tbody>
@@ -76,7 +90,7 @@
         <br>
 
         <div>
-            <label for="email">Ваш email:</label>
+            <label for="email">Ваш emale:</label>
             <input type="text" id="email" placeholder="Введите email.">
         </div>
 
@@ -96,12 +110,15 @@
     <br>
 
     <hr>
-    <h4>Социальные сети:</h4>
-        <a href="https://vk.com/" target="_blank">В контакте</a>
-        |
-        <a href="https://telegram.org/" target="_blank">Telegram</a>
-        |
-        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
-   
+
+    <div class="info-text">
+        <h4>Социальные сети:</h4>
+            <a href="https://vk.com/" target="_blank">В контакте</a>
+            |
+            <a href="https://telegram.org/" target="_blank">Telegram</a>
+            |
+            <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+    </div>  
+     
 </body>
 </html>
